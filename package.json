@@ -1,8 +1,11 @@
 { "name": "ssh2",
-  "version": "0.8.9",
+  "version": "0.8.10",
   "author": "Brian White <mscdex@mscdex.net>",
   "description": "SSH2 client and server modules written in pure JavaScript for node.js",
   "main": "./lib/client",
+  "files": [
+    "/lib"
+  ],
   "engines": { "node": ">=5.2.0" },
   "dependencies": {
     "ssh2-streams": "~0.4.10"
